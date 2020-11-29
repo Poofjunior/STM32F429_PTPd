@@ -2,7 +2,7 @@ A fork translated and adapted from the work of [L-KAYLA](https://github.com/L-KA
 
 # STM32F429 PTPd
 ---
-this project is based on the STM32F429 Apollo development board and is improved from the stm32_f4_ptpd project. The open source project address is: https://github.com/mpthompson/stm32_f4_ptpd
+this project is based on the [STM32F429 Apollo development board](https://www.mouser.com/ProductDetail/STMicroelectronics/NUCLEO-F429ZI?qs=mKNKSX85ZJcE6FU0UkiXTA%3D%3D&gclid=Cj0KCQiAqo3-BRDoARIsAE5vnaLWqL8d1RMFLLLsIPSzw4NTCDappKLNg3jwhQhCuvrAtHkhIDhceYEaAr0lEALw_wcB) and is improved from the stm32_f4_ptpd project. The open source project address is: https://github.com/mpthompson/stm32_f4_ptpd
 
 ## 1. Features
 + This project improves the PTPd filter of the original project, reduces the synchronization error, and speeds up the convergence speed. Under 180MHz main frequency, only need 3~4 cycles, can reach the synchronization error within 10ns.
