@@ -36,8 +36,8 @@ BUILD_DIR = build
 ######################################
 # C sources
 C_SOURCES =  \
-TCP_app/tcp_client.c \
 Src/main.c \
+TCP_app/tcp_client.c \
 Src/freertos.c \
 Src/lwip.c \
 Src/ethernetif.c \
